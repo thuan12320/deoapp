@@ -3,7 +3,7 @@ import { Volume2, ArrowLeft, Heart, Flame, Star, CheckCircle2, Play, Sparkles, S
 
 // --- CẤU HÌNH GEMINI API ---
 const apiKey = ""; 
-const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${AIzaSyBBsUGodRnJG0FyJ61xBLDaltV4d7rDJOA}`;
 
 const callGeminiAPI = async (payload) => {
   let retries = 5;
